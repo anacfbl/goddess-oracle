@@ -68,6 +68,7 @@
                         <outlet property="deusaButton" destination="Ad8-uu-N2n" id="XkJ-Vp-czF"/>
                         <outlet property="oracleCard" destination="gWK-mM-wDb" id="YqK-FW-OWQ"/>
                         <outlet property="viewDeusa" destination="WNK-6E-Y9R" id="KcN-mH-cjR"/>
+                        <outlet property="viewGeral" destination="Dw7-N3-R54" id="7WN-uJ-Ye6"/>
                         <outlet property="viewOracle" destination="SCc-pj-B15" id="aAj-uV-U6u"/>
                     </connections>
                 </viewController>

@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
+        
     @IBOutlet var oracleCard: UIImageView!
     @IBOutlet var card: UIImageView!
     
@@ -18,10 +18,10 @@ class ViewController: UIViewController {
     @IBOutlet var cardButton: UIButton!
     @IBOutlet var deusaButton: UIButton!
     
+    @IBOutlet var viewGeral: UIView!
     @IBOutlet var viewOracle: UIView!
     @IBOutlet var viewDeusa: UIView!
-    
-    
+        
     
     var cards: [UIImage] = [
         UIImage(named: "nut.png")!,
@@ -36,7 +36,6 @@ class ViewController: UIViewController {
         UIImage(named: "uzume.png")!,
         
     ]
-    
     
     
     @IBAction func flipCard (sender: UIButton) {
@@ -56,10 +55,9 @@ class ViewController: UIViewController {
     
     
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
     } // fecha viewDidLoad
     
